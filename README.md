@@ -8,7 +8,7 @@
   <title>PeaceToken ($PEACE) - OFFICIAL= $PEACE Coin – Crypto with a Cause, Future with No Flaws! ✌️🚀🌍</title>
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Custom Animations -->
+  <!-- Custom Animations and Styles -->
   <style>
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(-20px); }
@@ -58,11 +58,13 @@
     <span class="font-bold text-gray-700">Binance Coin:</span> <span id="bnb-price" class="text-blue-600">Loading...</span>
   </div>
 
-  <!-- Banner Section with Animated Fade-In (using your banner image) -->
-  <section class="relative w-full h-64 fade-in" style="background-image: url('https://im.ge/i/bannerf026-4ef5-97f1-79c304f4a004.p749hm'); background-size: cover; background-position: center;">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
+  <!-- Vibrant Banner Section with Animated Fade-In -->
+  <section class="relative w-full h-80 fade-in" style="background: linear-gradient(135deg, rgba(255,0,150,0.7), rgba(0,204,255,0.7)), url('https://im.ge/i/bannerf026-4ef5-97f1-79c304f4a004.p749hm'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0"></div>
     <div class="relative flex items-center justify-center h-full">
-      <h2 class="text-3xl font-bold text-white">Welcome to $PEACE Coin</h2>
+      <h2 class="text-4xl font-bold text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+        Welcome to $PEACE Coin
+      </h2>
     </div>
   </section>
   
@@ -208,12 +210,11 @@
       </div>
     </section>
     
-    <!-- AI Generated Art Gallery Section -->
+    <!-- AI Generated Art Gallery Section (Updated) -->
     <section class="mb-12 text-center fade-in">
       <h2 class="text-2xl font-bold text-gray-800">AI Generated Art Gallery</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
         <img src="https://i.im.ge/2025/03/17/p74FO9.PEACECOX-IN.png" alt="PEACECOX-IN" class="w-full rounded-lg shadow-md">
-        <img src="https://i.im.ge/2025/03/17/p74DyC.world-war-3-concept-illustration-ai-generative-free-photo.jpeg" alt="World War 3 Concept Illustration" class="w-full rounded-lg shadow-md">
         <img src="https://i.im.ge/2025/03/17/p74iZ1.newpeacecoin.png" alt="New PeaceCoin Logo" class="w-full rounded-lg shadow-md">
       </div>
       <p class="text-gray-600 mt-4">These images are AI-generated and represent our vision for peace and innovation. Replace these URLs with your own art as needed.</p>
