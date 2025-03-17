@@ -1,4 +1,4 @@
-<head>
+ <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="PeaceToken ($PEACE) is the future of crypto – uniting communities, funding humanitarian aid, and preventing global conflict through education, diplomacy, and blockchain innovation." />
